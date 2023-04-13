@@ -18,8 +18,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <title>WebStudio</title>
   </head>
   <body>
@@ -461,18 +461,18 @@
             </li>
           </ul>
         </div>
-      <form class="form">             
-       <p class="footer-title form-label"> Підпишіться на розсилку</p>
-            <label>
-                  <input
-                    class="form__input"
-                    type="text"
-                    name="email"
-                    placeholder="E-mail"
-                  />
-            </label>
-          <button class="main-btn form-btn" type="submit">Підписатися</button>  
-     </form>
+        <form class="form">
+          <p class="footer-title form-label">Підпишіться на розсилку</p>
+          <label>
+            <input
+              class="form__input"
+              type="text"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="main-btn form-btn" type="submit">Підписатися</button>
+        </form>
       </div>
     </footer>
 
@@ -483,7 +483,7 @@
             <use href="./imges/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
-
+        <!-- -------------form----------------- -->
         <form class="backdrop-form">
           <p class="backdrop-form__title">
             Залиште свої дані, ми вам передзвонимо
@@ -538,7 +538,7 @@
 
           <div class="form-field-wraper">
             <input
-              class="checkbox-input checkbox"
+              class="checkbox-input visually-hidden"
               type="checkbox"
               name="accept-policy"
               id="accept-policy"
