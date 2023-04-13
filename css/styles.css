@@ -84,7 +84,7 @@ img {
   background-color: var(--accent-background);
 }
 
-.hero-container {
+.hero__container {
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ img {
   margin-top: calc(-1 * var(--columns-gap));
 }
 
-.peculiarities-list-item {
+.peculiarities-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: var(--columns-gap);
   margin-top: var(--columns-gap);
@@ -169,21 +169,21 @@ img {
   padding-bottom: 94px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--columns-gap));
   margin-top: calc(-1 * var(--columns-gap));
 }
 
-.about-list-item {
+.about-list__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
   margin-left: var(--columns-gap);
   margin-top: var(--columns-gap);
 }
 
-.about-description {
+.about__description {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -214,7 +214,7 @@ img {
   margin-top: calc(-1 * var(--columns-gap));
 }
 
-.team-list-item {
+.team-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: var(--columns-gap);
   margin-top: var(--columns-gap);
@@ -243,11 +243,11 @@ img {
   color: var(--secondary-text-color);
 }
 
-.team-list-icon {
+.team-list__icon {
   display: flex;
 }
 
-.team-list-item-icon:not(:last-child) {
+.team-list__item-icon:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -286,7 +286,7 @@ img {
   margin-left: calc(-1 * var(--columns-gap));
 }
 
-.clients-list-item {
+.clients-list__item {
   flex-basis: calc((100% - 180px) / 6);
   margin-top: var(--columns-gap);
   margin-left: var(--columns-gap);
@@ -446,7 +446,7 @@ img {
   line-height: 1.19;
   color: #000000;
 }
-.logo-accent {
+.logo__accent {
   color: var(--accent-color);
 }
 
@@ -459,7 +459,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -590,13 +590,13 @@ img {
   color: var(--accent-text-color);
 }
 
-.footer-right-list {
+.footer-right__list {
   display: flex;
   /* margin-right: 90px; */
 
 }
 
-.footer-right-list-item:not(:last-child) {
+.footer-right__list-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -623,7 +623,7 @@ img {
   margin-bottom: 0;
 }
 
-.form-input {
+.form__input {
   margin-top: 20px;
   height: 50px;
   width: 350px;
@@ -737,7 +737,7 @@ img {
   padding: 40px;
 }
 
-.backdrop-form-title {
+.backdrop-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
